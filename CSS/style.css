@@ -196,3 +196,19 @@ body {
 .attribution { 
     margin-top: 20px;
 }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 40px; 
+    color: var(--desaturated-dark-blue); 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
